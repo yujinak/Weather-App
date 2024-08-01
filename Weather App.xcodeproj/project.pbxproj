@@ -11,6 +11,7 @@
 		987215392C5936EE0068BF3E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987215382C5936EE0068BF3E /* Color+Extensions.swift */; };
 		9872153B2C5945920068BF3E /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872153A2C5945920068BF3E /* DailyForecastTableViewCell.swift */; };
 		9872153D2C5966E00068BF3E /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872153C2C5966E00068BF3E /* UIView+Extensions.swift */; };
+		9872153F2C5972660068BF3E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872153E2C5972660068BF3E /* Service.swift */; };
 		9873EB5C2C5190E000F9705C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9873EB5B2C5190E000F9705C /* AppDelegate.swift */; };
 		9873EB5E2C5190E000F9705C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9873EB5D2C5190E000F9705C /* SceneDelegate.swift */; };
 		9873EB602C5190E000F9705C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9873EB5F2C5190E000F9705C /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		987215382C5936EE0068BF3E /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		9872153A2C5945920068BF3E /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
 		9872153C2C5966E00068BF3E /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		9872153E2C5972660068BF3E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		9873EB582C5190E000F9705C /* Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9873EB5B2C5190E000F9705C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9873EB5D2C5190E000F9705C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		9873EB5A2C5190E000F9705C /* Weather App */ = {
 			isa = PBXGroup;
 			children = (
+				9872153E2C5972660068BF3E /* Service.swift */,
 				9873EB5B2C5190E000F9705C /* AppDelegate.swift */,
 				9873EB5D2C5190E000F9705C /* SceneDelegate.swift */,
 				9873EB5F2C5190E000F9705C /* ViewController.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9872153D2C5966E00068BF3E /* UIView+Extensions.swift in Sources */,
+				9872153F2C5972660068BF3E /* Service.swift in Sources */,
 				987215392C5936EE0068BF3E /* Color+Extensions.swift in Sources */,
 				9873EB602C5190E000F9705C /* ViewController.swift in Sources */,
 				9872153B2C5945920068BF3E /* DailyForecastTableViewCell.swift in Sources */,
